@@ -8,6 +8,9 @@ public class Main {
         if (a < 10) {
             proc(a);
         }
+        if(a==7){
+            System.out.println("hurray");
+        }
         System.out.println("out " + a);
     }
 
@@ -20,15 +23,15 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        //proc(0);
+        proc(0);
 
-        int sum = 0;
-        for (int i = 1; i <= 5; i++) {
-            sum += i;
-        }
-
-        System.out.println(sum);
-
-        System.out.println(calcArifmSum(5));
+//        int sum = 0;
+//        for (int i = 1; i <= 5; i++) {
+//            sum += i;
+//        }
+//
+//        System.out.println(sum);
+//
+//        System.out.println(calcArifmSum(5));
     }
 }
